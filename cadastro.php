@@ -9,11 +9,11 @@ header('Content-Type: text/html; charset=iso-8859-1');
 // $dbname = 'agroreserva';
 
 
-$host = '172.31.9.38';
-$port = 8081;
-$user = 'agro_reserva';
-$pass = 'fHP4ywO89XvVUeh2yFrp';
-$dbname = 'agro_reserva';
+$host = '127.0.0.1';
+$port = 3306;
+$user = 'agroreserva';
+$pass = 'AgroAdmin123@';
+$dbname = 'agrolanding';
 
 if(isset($_POST["nome"])){
     
